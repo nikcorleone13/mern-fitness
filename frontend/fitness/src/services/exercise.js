@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const baseURL = axios.create({baseURL:'https://fitness-13bl.onrender.com/health/v1'}) 
+// const baseURL = axios.create({baseURL:'https://fitness-13bl.onrender.com/health/v1'}) 
 export const getAllExercise = async() =>{
     try {
-        const allExercise = await axios.get('https://fitness-13bl.onrender.com/health/v1/api/exercise').then((res) =>{
+        const allExercise = await axios.get('http://192.168.1.9:9000/health/v1/api/exercise').then((res) =>{
             console.log(res);
         });
     } catch (error) {

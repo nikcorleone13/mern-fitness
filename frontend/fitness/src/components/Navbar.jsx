@@ -7,7 +7,7 @@ const activeStyle = ({ isActive }) => ({
 
 const Navbar = () => {
   return (
-    <div className="w-screen py-3 text-lg border-b-2 ">
+    <div className="w-screen py-3 text-lg border-b-2 border-b-black ">
       <div className="w-[90%] mx-auto flex justify-between">
         <div className="font-serif  text-2xl ">
           <Link to="/">
