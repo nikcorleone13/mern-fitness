@@ -7,16 +7,16 @@ const activeStyle = ({ isActive }) => ({
 
 const Navbar = () => {
   return (
-    <div className="w-screen py-3 text-lg border-b-2 border-b-black ">
+    <div className="text-Primary w-screen py-5 text-xl border-b-2 border-b-Secondary ">
       <div className="w-[90%] mx-auto flex justify-between">
-        <div className="font-serif  text-2xl ">
+        <div className="font-sans text-2xl font-bold uppercase">
           <Link to="/">
             {" "}
             Fit<span className="ml-[2px]">Freaks</span>
           </Link>
         </div>
         <div>
-          <nav className="flex gap-6 ">
+          <nav className="flex gap-8 ">
             <NavLink to="/" style={activeStyle} className="">
               Home
             </NavLink>
